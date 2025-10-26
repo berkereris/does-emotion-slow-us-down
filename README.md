@@ -2,7 +2,7 @@
 ### *A Reaction Time Study on Emotional Valence and Scene Categorization*
 
 #### Authors  
-Ridha Alrubaye, Alp Eren Akyüz, Muhammet Öztürk, Alperen Çağlar, Berker Eriş 
+Ridha Alrubaye, Alp Eren Akyüz, Muhammet Öztürk, Alperen Çağlar, Berker Eriş   
 Department of Artificial Intelligence and Data Engineering  
 Istanbul Technical University  
 
