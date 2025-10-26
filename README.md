@@ -1,28 +1,28 @@
-# 🧠 Does Emotion Slow Us Down?  
+#  Does Emotion Slow Us Down?  
 ### *A Reaction Time Study on Emotional Valence and Scene Categorization*
 
 #### Authors  
-Ridha Alrubaye, Alp Eren Akyüz, Muhammet Öztürk, Alperen Çağlar, **Berker Eriş**  
+Ridha Alrubaye, Alp Eren Akyüz, Muhammet Öztürk, Alperen Çağlar, Berker Eriş 
 Department of Artificial Intelligence and Data Engineering  
 Istanbul Technical University  
 
 ---
 
-## 📖 Overview
+## Overview
 This project investigates how **emotional valence** (positive, neutral, negative) affects **reaction time and accuracy** in a binary image classification task.  
 Participants categorized indoor and outdoor scenes while their response speed was recorded.  
 The experiment was conducted using **PsychoPy**, and all analyses were performed in **Python (Jupyter Notebook)** using statistical methods such as **ANOVA** and **Tukey’s HSD**.
 
 ---
 
-## 🧪 Research Question
+## Research Question
 > **Does the emotional valence of an image affect how quickly people can categorize it as indoor or outdoor?**
 
 **Hypothesis:** Emotionally charged images (positive or negative) would elicit slower reaction times than neutral images.
 
 ---
 
-## ⚙️ Experimental Design
+## Experimental Design
 - **Participants:** 75 university students (balanced by gender, mean age 22)  
 - **Stimuli:** 180 labeled images with emotional valence (positive, neutral, negative) and environment (indoor/outdoor)  
 - **Task:** Binary classification (“Indoor” vs. “Outdoor”)  
@@ -31,7 +31,7 @@ The experiment was conducted using **PsychoPy**, and all analyses were performed
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 | Metric | Main Effect | p-value | Notes |
 |---------|--------------|---------|-------|
 | Reaction Time | Emotional Class | 0.02 | Only Neutral vs. Positive contrast significant |
@@ -40,19 +40,6 @@ The experiment was conducted using **PsychoPy**, and all analyses were performed
 | Emotion × Scene | None | n.s. | No interaction effect |
 
 - **Conclusion:** Emotional valence has a measurable but subtle effect on speed. Scene type has a stronger influence on both speed and accuracy.
-
----
-
-## 🧰 Files in Repository
-```
-.
-├── main.ipynb                 # Jupyter notebook with data analysis
-├── Poker Face Experiment.py   # Python script version of the analysis
-├── full_data.xlsx             # Raw experimental data
-├── Neuroscience_Conference_Paper.pdf  # Research paper (ISBCS 2025)
-├── poster.pdf                 # (optional) Project poster for presentation
-└── README.md
-```
 
 ---
 
